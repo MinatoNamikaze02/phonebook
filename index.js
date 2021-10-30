@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 const morgan = require('morgan')
-
+app.use(express.static('build'))
 app.use(express.json());
 morgan.token('data', function (req, res) { return JSON.stringify(req.body) })   // returns body for logging
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :data'))
