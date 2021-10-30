@@ -126,7 +126,7 @@ app.post("/api/contacts", (request, response) => {
 });
 
 //misc
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 
 app.listen(PORT, () => {
   console.log(`Server running on PORT ${PORT}`);
