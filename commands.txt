@@ -1,0 +1,2 @@
+node_modules/.bin/eslint index.js -> lint command to check index.js
+heroku config:set
