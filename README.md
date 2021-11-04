@@ -1,7 +1,6 @@
 # phonebook
-  Leaning express
- ## Hosted on Heroku
-  
-  
- *I didn't attempt to style this*
-  
+  An app to basically store, retrieve and delete phone numbers (backend focused)
+# Hosted 
+  (heroku)[https://id.heroku.com/login]  
+# Based on
+  (fullstackopen)[www.fullstackopen.com/en]
